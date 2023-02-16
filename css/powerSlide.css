@@ -1,0 +1,56 @@
+
+.powerSlide .wrapper {
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+}
+
+.powerSlide .wrapper img {
+    position: absolute;
+}
+
+.powerSlide a.prev,
+.powerSlide a.next {
+    display: none;
+    margin-top: -1em;
+    padding: 1em 2em;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+}
+.powerSlide a.next {
+    right: 0;
+}
+
+.powerSlide .wrapper p {
+    bottom: 0;
+    display: none;
+    padding: 1.5em;
+    position: absolute;
+}
+
+.powerSlide .nav {
+    margin: .5em 0;
+    overflow: hidden;
+}
+.powerSlide .nav.thumbs {
+    padding: 15px; /* Same as wrapper padding */
+}
+.powerSlide .nav img.thumb {
+    cursor: pointer;
+    float: left;
+    margin: 2px;
+    position: relative;
+}
+.powerSlide .nav img.thumb.current {
+    z-index: 999;
+}
+.powerSlide .nav a {
+    float:left;
+    margin: .2em;
+    min-width: 1em;
+    padding: .2em .7em;
+    text-align: center;
+    text-decoration: none;
+}
+.powerSlide .nav a.current {}

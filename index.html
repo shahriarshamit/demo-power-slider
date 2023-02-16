@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Power Slider</title>
+        
+        <link rel="stylesheet" href="css/powerSlide.css" />
+        <link rel="stylesheet" href="css/powerSlide_theme.css" />
+    </head>
+    <body>
+        <div id="slider">
+            <img src="img/img1.jpg" title="Image 1" />
+            <img src="img/img2.jpg" title="Image 2" />
+            <img src="img/img3.jpg" title="Image 3" />
+        </div>
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/powerSlide.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $('#slider').powerSlide({
+                    'position': 'top',
+                    'thumbs': false,
+                });
+            });
+        </script>
+    </body>
+</html>
